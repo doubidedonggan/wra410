@@ -53,6 +53,16 @@ h1, h2, h3  {
 
 }
 
+#student-group {
+  clear: both;
+  margin: 20px;
+  border: 20px;
+  padding: 10px;
+  background-color:  #d3d3d3;
+  color: black;
+  text-align: left;
+}
+
 #footer {
   clear: both;
   padding: 10px;
