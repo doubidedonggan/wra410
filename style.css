@@ -1,0 +1,72 @@
+body {
+    background-color: #EEE;
+    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #B23333;
+}
+
+h1, h2, h3  {
+  margin: 0;
+  padding: 10px;
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#header {
+    background-color: #18453B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content {
+  padding: 10px;
+}
+
+#nav {
+  width: 150px;
+  float: left;
+  padding: 20px;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+#nav .selected {
+  font-weight: bold;
+}
+
+#main {
+  width: 750px;
+  float: right;
+
+}
+
+#footer {
+  clear: both;
+  padding: 10px;
+  background-color: #97a2a2;
+  color: white;
+  text-align: right;
+}
+.schedule-date {
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+.schedule-resources {
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+}
