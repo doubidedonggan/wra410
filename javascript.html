@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <button id="hellobutton">Hello</button>
+    <script>
+        document.getElementById('hellobutton').onclick = function() {
+            alert('Hello world!');                     // Show a dialog
+            var myTextNode = document.createTextNode('Some new words.');
+            document.body.appendChild(myTextNode);     // Append "Some new words" to the page
+        };
+    </script>
+  </body>
+</html>
